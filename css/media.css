@@ -114,7 +114,7 @@
     }
     
     .menubox {
-        display: flex;
+        display: block;
         flex-direction: column;
         margin-bottom: 30px;
     }
@@ -126,6 +126,15 @@
     
         font-family: var(--tipo-titulo);
         font-size: 18px;
+    }
+
+    .menu_list a {
+        display: flex;
+        list-style: none;
+    
+        font-family: var(--tipo-titulo);
+        font-size: 14px;
+        line-height:18px;
     }
     
     .menu_list li {
@@ -686,7 +695,7 @@
 
 .workspace_s {
 
-    width: 45%;
+    width: 100%;
     gap: 20px;
 
     
@@ -699,6 +708,10 @@
     
 
 }
+
+
+
+
 
 .ocultar{
     display: none;

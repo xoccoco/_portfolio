@@ -124,6 +124,15 @@ h3 {
     font-size: 22px;
 }
 
+.menu_list a {
+    display: flex;
+    list-style: none;
+
+    font-family: var(--tipo-titulo);
+    font-size: 22px;
+    line-height: normal;
+}
+
 .menu_list li {
     padding: 0 15px 0 15px;
 }
@@ -650,7 +659,8 @@ footer {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:10Px;
+    gap:30Px;
+    padding: 10px;
 
 }
 
@@ -661,7 +671,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 10px;
+    gap: 30px;
 
 }
 
@@ -675,7 +685,8 @@ footer {
 
 .workspace_s {
 
-    width: 45%;
+    width: 43%;
+    gap: 20px;
 
     
 }
@@ -686,6 +697,14 @@ footer {
     border: #666 1px solid;
     
 
+}
+
+.hamicobox img{
+    width: 40px;
+}
+
+.estado{
+    display: none;
 }
 
 
@@ -704,4 +723,9 @@ footer {
     display: flex;
     padding: 15px;
     background-color: #f7f7f7;
+}
+
+svg{width:23px;height:15px;}
+svg line {
+    stroke: #333;
 }
