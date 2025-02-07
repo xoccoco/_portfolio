@@ -86,16 +86,16 @@ h3 {
 .subtitle_work {
     display: inline-block;
 
-    font-family: var(--tipo-titulo);
+    font-family: var(--tipo-primaria);
     font-weight: 500;
-    font-size: 24px;
-    color: #000;
+    font-size: 18px;
+    color: #666;
 
 
     margin-top: 10px;
-    margin-bottom: 10px;
+
     margin-left: 5px;
-    background: #A6FFEF;
+   
 
 }
 
@@ -375,9 +375,11 @@ article {
 
     display: block;
     color: var(--color-primario);
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
     margin-left: 5px;
+
+    color:#000;
 
 
 }
@@ -651,6 +653,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    background-color: #f7f7f7;
+    padding: 30px;
 
 }
 
@@ -660,7 +664,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap:30Px;
-    padding: 10px;
+    
 
 }
 
@@ -721,8 +725,8 @@ footer {
 
 .imagespace {
     display: flex;
-    padding: 15px;
-    background-color: #f7f7f7;
+    
+    
 }
 
 svg{width:23px;height:15px;}

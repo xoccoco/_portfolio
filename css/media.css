@@ -85,21 +85,21 @@
 
     
 
-.subtitle_work {
-    display: inline-block;
-
-    font-family: var(--tipo-titulo);
-    font-weight: 500;
-    font-size: 18px;
-    color: #000;
-
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    background: #A6FFEF;
-
-}
+    .subtitle_work {
+        display: inline-block;
+    
+        font-family: var(--tipo-primaria);
+        font-weight: 500;
+        font-size: 18px;
+        color: #000;
+    
+    
+        margin-top: 10px;
+    
+        margin-left: 5px;
+       
+    
+    }
 
 
     .fins {
@@ -116,7 +116,7 @@
     .menubox {
         display: block;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     
     .menu_list {
@@ -134,7 +134,7 @@
     
         font-family: var(--tipo-titulo);
         font-size: 14px;
-        line-height:18px;
+        line-height:20px;
     }
     
     .menu_list li {
@@ -391,6 +391,8 @@
         margin-bottom: 60px;
     
         margin-left: 5px;
+
+        color:#666;
     
     
     }
