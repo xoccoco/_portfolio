@@ -86,13 +86,14 @@ h3 {
 .subtitle_work {
     display: inline-block;
 
-    font-family: var(--tipo-primaria);
+    font-family: var(--tipo-titulo);
     font-weight: 500;
     font-size: 18px;
-    color: #666;
+    color: #000;
 
 
     margin-top: 10px;
+    margin-bottom: 2px;
 
     margin-left: 5px;
    
@@ -140,6 +141,10 @@ h3 {
 .menu_list li+li {
     border-left: 1px solid #333;
 
+}
+
+.ham_menu{
+    display: none;
 }
 
 main {
@@ -379,7 +384,7 @@ article {
 
     margin-left: 5px;
 
-    color:#000;
+    color:#666;
 
 
 }
@@ -653,8 +658,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #f7f7f7;
-    padding: 30px;
+    
+    padding: 0px;
 
 }
 
@@ -664,6 +669,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap:30Px;
+    padding: 20px;
+    background-color: #f7f7f7;
     
 
 }
