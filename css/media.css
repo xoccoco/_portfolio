@@ -87,14 +87,13 @@
 
     .subtitle_work {
         display: inline-block;
+        width: 80%;
     
         font-family: var(--tipo-titulo);
         font-weight: 500;
         font-size: 18px;
         color: #000;
     
-    
-        margin-top: 10px;
     
         margin-left: 5px;
        
